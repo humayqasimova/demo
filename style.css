@@ -1,0 +1,167 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#box {
+  padding: 50px 0;
+}
+#box .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #34557a;
+  background-color: #7a93b1;
+}
+#box .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34557a;
+  width: 100px;
+  height: 100px;
+}
+#box .box .minibox:hover {
+  width: 150px;
+  height: 150px;
+  transition: 1s;
+}
+#box .box .minibox h2 {
+  color: white;
+}
+
+#button {
+  padding: 50px 0;
+}
+#button .btn {
+  width: 150px;
+  height: 73px;
+  background-color: #894187;
+  border: 2px solid #753e77;
+  transition: 3s;
+}
+#button .btn:hover {
+  background-color: #3d113f;
+  border: 2px solid #905c92;
+}
+#button .btn h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  padding: 1px 34px;
+}
+@media screen and (max-width: 800px) {
+  #button .btn {
+    width: 90px;
+    height: 44px;
+    background-color: #8180e2;
+    border: 2px solid #8180e2;
+  }
+  #button .btn h2 {
+    font-size: 16px;
+    padding: 0 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #button .btn {
+    width: 40px;
+    height: 40px;
+    background-color: #421242;
+    border: 2px solid #341253;
+    border-radius: 4px;
+  }
+  #button .btn h2 {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+}
+
+#ring {
+  padding: 50px 0;
+}
+#ring .box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #966b45;
+  transition: 2s;
+}
+#ring .box:hover {
+  border-radius: 20%;
+}
+#ring .box h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin: 59px;
+}
+@media screen and (max-width: 800px) {
+  #ring .box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #a0a96b;
+  }
+  #ring .box h2 {
+    font-size: 25px;
+    margin: 10px 5px;
+  }
+}
+@media screen and (min-width: 801px) {
+  #ring .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 205px;
+    border-radius: 50%;
+    background-color: #966b45;
+  }
+}
+
+#text {
+  padding: 50px 0;
+  position: relative;
+}
+#text .minibox {
+  width: 250px;
+  height: 150px;
+  background-color: #416e9a;
+  margin: 20px;
+}
+#text .minibox h2 {
+  font-size: 20px;
+  color: white;
+  padding: 57px 88px;
+}
+#text .txt {
+  position: absolute;
+  top: 730px;
+  left: 302px;
+}
+
+#txt {
+  padding: 50px 0;
+  position: relative;
+}
+#txt .minibox {
+  width: 250px;
+  height: 150px;
+  background-color: #509768;
+  margin: 20px;
+}
+#txt .minibox h2 {
+  font-size: 20px;
+  color: white;
+  padding: 57px 88px;
+}
+#txt .text {
+  position: absolute;
+  top: 220px;
+  left: 320px;
+}/*# sourceMappingURL=style.css.map */
